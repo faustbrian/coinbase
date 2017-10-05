@@ -10,7 +10,13 @@ $ composer require faustbrian/coinbase-php-client
 
 ## Usage
 
-...
+```php
+<?php
+
+$client = new BrianFaust\Coinbase\Client('key', 'secret', 'version');
+
+dump($client->api('Wallet\Accounts')->all());
+```
 
 ## Testing
 
