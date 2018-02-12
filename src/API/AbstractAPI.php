@@ -42,8 +42,8 @@ abstract class AbstractAPI
      */
     public function __construct(string $key, string $secret, string $version)
     {
-        $this->key     = $key;
-        $this->secret  = $secret;
+        $this->key = $key;
+        $this->secret = $secret;
         $this->version = $version;
     }
 
