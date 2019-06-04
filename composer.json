@@ -1,13 +1,19 @@
 {
-    "name": "faustbrian/coinbase-php-client",
+    "name": "plients/coinbase",
     "description": "A Coinbase Client for PHP",
-    "keywords": ["api", "http", "coinbase"],
+    "keywords": [
+        "api",
+        "http",
+        "coinbase"
+    ],
     "license": "MIT",
-    "authors": [{
-        "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
-    }],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "homepage": "https://basecode.sh"
+        }
+    ],
     "require": {
         "php": "^7.1",
         "faustbrian/http": "^1.0"
@@ -18,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\Coinbase\\": "src"
+            "Plients\\Coinbase\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\Coinbase\\": "tests"
+            "Plients\\Tests\\Coinbase\\": "tests"
         }
     },
     "config": {
